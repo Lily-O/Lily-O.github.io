@@ -7,14 +7,14 @@ nav {
   background-color: red;
 }
 .menu {
-  background-color: skyblue;
+  background-color: rgb(129, 221, 206);
   list-style-type: none;
   display: flex;
   justify-content: right;
   flex-wrap: wrap;
 }
 .menu li {
-  background-color: beige;
+  background-color: rgb(248, 215, 123);
 }
 .menu li a {
   text-decoration: none;
@@ -24,7 +24,8 @@ nav {
   display: none;
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:420px){ 
+  
   .menu-icon {
       display: block;
   }
@@ -36,6 +37,8 @@ nav {
       overflow: hidden;
   }
   .nav-expanded {
-      height: 80px;
+      height: 160px;
   }
+
+
 }
